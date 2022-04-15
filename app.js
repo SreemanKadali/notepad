@@ -7,8 +7,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"))
 
-// mongoose.connect("mongodb+srv://srimannarayana56:sree@439@cluster0.h8ubd.mongodb.net/todolistDB?retryWrites=true&w=majority");
-// mongoose.connect("mongodb://localhost:27017/todolistDB")
+
 mongoose.connect("mongodb+srv://username:password@cluster0.h8ubd.mongodb.net/todolistDB?retryWrites=true&w=majority");
 
 
